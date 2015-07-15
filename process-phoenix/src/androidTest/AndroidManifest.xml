@@ -1,0 +1,12 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jakewharton.processphoenix"
+    >
+  <!-- TODO http://b.android.com/179651 -->
+  <uses-sdk
+      android:minSdkVersion="18"
+      tools:overrideLibrary="android.support.test, android.app, android.support.test.rule, android.support.test.uiautomator.v18"
+      />
+  <application/>
+</manifest>
